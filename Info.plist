@@ -24,7 +24,7 @@
 				<key>Command</key>
 				<string>displayConfigPage</string>
 				<key>Identifier</key>
-				<string>configBtn</string>
+				<string>configButton</string>
 				<key>Image</key>
 				<string>safavim-tabbar.png</string>
 				<key>Label</key>
@@ -39,7 +39,12 @@
 	<key>Content</key>
 	<dict>
 		<key>Scripts</key>
-		<dict/>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>content.js</string>
+			</array>
+		</dict>
 	</dict>
 	<key>Description</key>
 	<string>Use Vim shortcust for page navigation</string>
